@@ -1,0 +1,234 @@
+{
+  "name": "dsh-plugin-session-improvements",
+  "generatedAt": "2026-08-18 09:34:27 +08:00",
+  "baseCommit": "47f943859bef60e4160492346772ded9b24f765a",
+  "baseCommitShort": "47f943859b",
+  "fileCount": 45,
+  "files": [
+    {
+      "path": "apps/web/tests/scaffold.ts",
+      "sha256_original": "450f44e83d82430b58defc40f0dff401fb885ab3d18576a9f93dec3d29d84844",
+      "sha256_modified": "1de8673f5c68284b1c374bfc3997ef5b5bf7c926e4db3241aa17e627e46b5184"
+    },
+    {
+      "path": "apps/web/tests/workspace-management.e2e.ts",
+      "sha256_original": "25e6e87d107f93717d7d6fbbe3dd372f31634c2a2781aaef977f095ddda4a7b8",
+      "sha256_modified": "9c22475e8b4727d1f2f8a1c2c6605a700522ad906880fd2413a2bc6ddb108ae7"
+    },
+    {
+      "path": "packages/api/remotes/src/agent-lookup.ts",
+      "sha256_original": "d91b49df46d1c332464e724ee22ad9adbc384a7b5082c3be1f78d99d09e7eecd",
+      "sha256_modified": "eefa43b5f59668e6bf9e28da9aa68b37ee46ee8b7c161a56ae0002e5cebffa30"
+    },
+    {
+      "path": "packages/client/connection/src/client/fixture.ts",
+      "sha256_original": "83b49ea4769dcb6ad746875b52aee9de429b80730fd17a49f3f0ffc8fda7dca2",
+      "sha256_modified": "59757d6824033967d98668f4b9f6a5281f47485fd631ff3b21dbbac09d324c1d"
+    },
+    {
+      "path": "packages/client/connection/tests/fake-api.client.ts",
+      "sha256_original": "eb9d44d81a1431e06b909a75ccee9ae6836ff681b96be9b7f7950013f461acae",
+      "sha256_modified": "16e5051026d08fb80d62bd8a7825a38fa062cf3c7746a01f87e6e01cbaa513fb"
+    },
+    {
+      "path": "packages/client/runtime/src/client/contract/sessions.ts",
+      "sha256_original": "0b2a75d5fc46a7305e43ca0f7cabaaa22eeb79a4043740506322cea79c5b2523",
+      "sha256_modified": "b11a4bf901102c15eed5caebdbfbba874600edeed4f602e8ce0b30d31d199fcf"
+    },
+    {
+      "path": "packages/client/runtime/src/client/contract/workspaces.ts",
+      "sha256_original": "25ceee260d175f494bf0ba3d396bc8fd0d128e15a439a10d1275afefb99d6067",
+      "sha256_modified": "bba82534db02548775b7f99644ba5184c9048bb92a4011f53541d723246718f3"
+    },
+    {
+      "path": "packages/client/runtime/src/client/sessions/manager.ts",
+      "sha256_original": "b70900b6dca4789ed51264d4882ae23eef494c24219ecfbdbdc0ab3472584b1e",
+      "sha256_modified": "ada0552bbbe9acdad0c63909f704198c844ad053c8c555ecc853b1b372312b4a"
+    },
+    {
+      "path": "packages/client/runtime/src/client/sessions/service.ts",
+      "sha256_original": "a4531ae9de0423400d3c641a5115a4a97b852276781a53fc2cfdbd4e34ba6b82",
+      "sha256_modified": "cc7c767f0b580d4fa6271a574e8b582f8fadcbdd2a7853edd2fd890877800f17"
+    },
+    {
+      "path": "packages/client/runtime/src/client/workspaces/manager.ts",
+      "sha256_original": "1a4686486a23f1c0029da506442e122dc76a3d605b64bf3791ebf015110a62e7",
+      "sha256_modified": "150f95c19094f5f125dd017fb507cc1f9fbeacd1d2643ccdfe968f682905df84"
+    },
+    {
+      "path": "packages/client/runtime/src/client/workspaces/service.ts",
+      "sha256_original": "f0fb9dbb2590b518e4c0ac269fa0c4cce91423328e15475255785121ea508886",
+      "sha256_modified": "a983d240382a00ede7a21d9c5a0c53ace19c3118388e25bfebee7f7884896f57"
+    },
+    {
+      "path": "packages/client/runtime/tests/fake-api.client.ts",
+      "sha256_original": "9d555e73bdfa501c9a33e07f18b42d49ec87605dcd287df4be19ab088573b839",
+      "sha256_modified": "839881cf0184cab07d7fc76256cc054c8c4e7396c9b0b8b702238460b5efbd2e"
+    },
+    {
+      "path": "packages/client/runtime/tests/sessions-service.client.spec.ts",
+      "sha256_original": "46301bd67f380038014d6bad7fe83ae7391d686247a0c3e065fb9fbb35c598fc",
+      "sha256_modified": "840208d00097a8bcd6180ae0c637a73005bf42b9175bee8b4199934778cfd377"
+    },
+    {
+      "path": "packages/client/runtime/tests/workspaces-service.client.spec.ts",
+      "sha256_original": "3bee6043acc533e034b436cf157f25ad062bf630b6e7b10a435c9f9c51b03360",
+      "sha256_modified": "877c8e03f182af08dcee890728640126e2b3bfd45243d0352cc0e9097862be93"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/WorkspaceBrowser.module.css",
+      "sha256_original": "a09fdf87dab5c03454cb3967dfd968e8894b021eb50b6220345f24553b8981e2",
+      "sha256_modified": "62ee415a65a5133059e57826d5120459cf832086db5a73c29f96fd1a0126dbee"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/WorkspaceBrowser.tsx",
+      "sha256_original": "692645c4161b9e93569df4623f70c147868af6380d6e3e7fed5023da4072242a",
+      "sha256_modified": "50fdc9cb8f193a101be3c9156d6c8ec64f89752b46e910e1654dbd8fd96d6bf1"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/contract/slots.ts",
+      "sha256_original": "8b2fff471ad15bbe967a340a30b8d100a51861603a3bcad4aa37c14f9b41b692",
+      "sha256_modified": "172a5cc5cc5e5de91d1dc5fcc296e2110648d4a438b46a89230ea0402ea671a9"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/index.ts",
+      "sha256_original": "998512e74f24d02fd8ba0ed0a7e81803f9317606d89562e6110cb3936bed523f",
+      "sha256_modified": "6e0ad44b6478c9197d3629d10c9e7800301f05d370fcc9a8d7a71d3f782add8c"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/locales.ts",
+      "sha256_original": "23d1866da00497c4ee7534f80759a9e390eabb1e7823deb64d6bcdb9ee9e141b",
+      "sha256_modified": "4f88e3c9b35b310bf4031875db068c2f1cd04de4d4e9d6bb8a21eca93bafdbc8"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/rows/Rows.tsx",
+      "sha256_original": "3f6214ec1c7788810c2086d761677c75c2bb65d9f7699e3c5c9a2855edffed8e",
+      "sha256_modified": "caf36a1a557ffaa634081d018ded798bdb68269f80f59312f9a33e1307b923b3"
+    },
+    {
+      "path": "packages/client/ui-workspace/src/client/tree.ts",
+      "sha256_original": "8511885c482e12b192e19528f6753fd09cba468f3a698da8ca36ecacf879c61b",
+      "sha256_modified": "a314601198a4eec3fba4c8320d4b2b517a2cbf76276ed45cd6e67db85f3b31e7"
+    },
+    {
+      "path": "packages/client/ui-workspace/tests/workspace-browser.client.spec.tsx",
+      "sha256_original": "329a603b3f3cceb8207b9acec780fb7b6bf2d61096eaf00c7fc43d5ba3b7ee28",
+      "sha256_modified": "ab3a24b05ab879d19b855e6b3b509c69857ef72b9397ef533a415d8611e6f6c2"
+    },
+    {
+      "path": "packages/extensions/cordis-client-runner/src/client/api-catalog.ts",
+      "sha256_original": "8373e919327db382f68170ae2bcd55a26a510a12ac6228e9c25cef8d1acdda9c",
+      "sha256_modified": "d3ec41e2cdba276accc46f6ec9779442f23485d259b31551dc98e870b6cb8945"
+    },
+    {
+      "path": "packages/extensions/tool-cordis/src/api-catalog.ts",
+      "sha256_original": "377adb7de935f5d6af22103bf038bfa20077deeabb024e1873ba813463f7a2a1",
+      "sha256_modified": "1f01bf0c27859634c96f713154a58740956ab96c85ab1486ab39b9e2d74e5861"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api-proxy.ts",
+      "sha256_original": "8af1f96a31b035a0e5f4a8ef3904212dce3985446c4790b9a4b5149fda76fbb9",
+      "sha256_modified": "c6ab52f540158bd7f05feff7a00d0403f349c3aaa350d0ee64d32ae7b81280b5"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/rpc-map.ts",
+      "sha256_original": "1d2bf6b00b3dadeb098a37fbcdb3119b50b101a45bdc0840c287649413fd938f",
+      "sha256_modified": "a06ff36ddee7b880e57c64057dd2e328e6c4dcb76b47a9ecf9b19e04171366b7"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/rpc.schema.ts",
+      "sha256_original": "47b1d9e242bcb1ae818749c80bd85355e0d00b7e54bc5d79f523d4ac290c9f76",
+      "sha256_modified": "a4e9b3981473d651aa255c3c5d84b81dcc1c0f62058fb3df44fbed8501463161"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/rpc.ts",
+      "sha256_original": "1043e23b44846ddd67c4c6ec3053f65028ff9366e722bb441185ef9f0008b56e",
+      "sha256_modified": "5248985960426327765d097b077d612e7de1e9fb1d28c56a14baebee6d9deaf1"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/sessions.schema.ts",
+      "sha256_original": "d2759645cd79226359e4f4da88b35ecb75956c1b7772fa4e983021e91efee372",
+      "sha256_modified": "a22e5055dc0866afc942908a73b58f6949bacca1a6f38649b78446792c38da9f"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/sessions.ts",
+      "sha256_original": "783dc1fbf2933dc49b0f25b686a86bad8d2199b720051149b2ee222e37355e6b",
+      "sha256_modified": "7c0d504f495c9594960985f8f2cf8f2492265c1ce64d508681909b098cae282d"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/workspace.schema.ts",
+      "sha256_original": "0d4ffe97c6c039462cfbb2b2d9b7047f6143b6836af2a34ac3a127f74d79bf39",
+      "sha256_modified": "566b2c8aac080771c7666c0d0b1b336ba41390fab31249120f272cd49ab04d9c"
+    },
+    {
+      "path": "packages/host/apiproxy/src/api/workspace.ts",
+      "sha256_original": "de4fbddcdfd65ab3a8ce8a3c03b59031fce7ca47475553204c46bb16a0fc0ae6",
+      "sha256_modified": "a4b34be1011d1499c80769a5dd126c1b9928a2b64bd022fa821c079a3aa28e82"
+    },
+    {
+      "path": "packages/host/apiproxy/src/fetch/client.ts",
+      "sha256_original": "13f72d84f390cbdf630e360e9c79f25b24008041d0b40a67a5f4afe2a1f01bac",
+      "sha256_modified": "7da1dfc8fe8a3e1ddfb0890b534e52b889fc4e1c3fddbd7179757e17bdc9286f"
+    },
+    {
+      "path": "packages/host/apiproxy/src/fetch/handler.ts",
+      "sha256_original": "e5016c1083e807bca3727e15d8bfad6f0234d3c09ea34ea7875cd810e1cad345",
+      "sha256_modified": "ab0b1aebc2b1e512f03b41a66a986c8a8b1af8887a34d3f33e46c48922e41afd"
+    },
+    {
+      "path": "packages/host/apiproxy/tests/client-handler.spec.ts",
+      "sha256_original": "90818db53e4329dbec77d3eacc9cd3ff589e371a9f3753e15336d0394cf53222",
+      "sha256_modified": "def296abbd0ab47fc734db2504a431b787aaf6272799d57800646299d3f8c466"
+    },
+    {
+      "path": "packages/host/apiproxy/tests/fetch-carrier.spec.ts",
+      "sha256_original": "125eee7ab7edb24534acc5ab7ae6042a339c50b03f16206ba4e74ddec08683d2",
+      "sha256_modified": "648b2015ebaf461c535ced3f233b45183458babed225e381df3988320addf048"
+    },
+    {
+      "path": "packages/session/session-persistence-jsonl/src/index.ts",
+      "sha256_original": "9715f1a45bc1778c1904d018f2a97c0ee1710327cea3b9fc0cf910215fbf3cdb",
+      "sha256_modified": "5d2e2a7baae594c3ed9e5074d0812af77429fca6c4e5246b70bab1a7903f61a4"
+    },
+    {
+      "path": "packages/session/session-persistence-sqlite/src/index.ts",
+      "sha256_original": "706c90d9f5a285d0f604667cd6abaf95be1f2e932de4ca100fb11a90a1a8f48c",
+      "sha256_modified": "64bebdcfa7e043859da4dc1900a0d43206fb3087829447f6a62129327c2c3113"
+    },
+    {
+      "path": "packages/session/session-persistence/src/coordinator.ts",
+      "sha256_original": "e7bbc321bdb09ea8870027bd5a3e285472dddc8e4346f95f85addacf6eb784d1",
+      "sha256_modified": "1be4bcd9d576face9b9c7cae6725e785b59cf672c6313b5170ad67088186d6b6"
+    },
+    {
+      "path": "packages/session/session-persistence/src/index.ts",
+      "sha256_original": "c047bc0914536a4015142f3c041d514e453e298e3801354734aa956b7d4b1666",
+      "sha256_modified": "58d8b2838253fcc9f35d1a0b179815be3281f792f4d19cbad1b09cb1db3d66a3"
+    },
+    {
+      "path": "packages/session/session-persistence/tests/contract.ts",
+      "sha256_original": "25f4f76af18ba5506f43958cb25797f4308aa2f465e583cfdaf44eecebf13bdd",
+      "sha256_modified": "9ae97d2e63cb8457bf1d1ea8601ad3d95832bfa6880e6e21a78cd87cf942826c"
+    },
+    {
+      "path": "packages/session/session-persistence/tests/persistence.spec.ts",
+      "sha256_original": "5b16d2f9d5a4d41125b9da76727d823c000fef778c53886f85492a94edbe589e",
+      "sha256_modified": "33cba5597f351e84e7b4e1c81c62136f451613e764eb1a47de3f6e36f1dc353d"
+    },
+    {
+      "path": "packages/test-support/client-runtime/src/sessions.ts",
+      "sha256_original": "7d598590cadfff2f9ddbf7169fb397fbb87dfba32a8d8c97655507d5fa4e4aed",
+      "sha256_modified": "636461a4e32c84b2470717e0320c1fc75835ef8a6523cd236401e6532d1a0883"
+    },
+    {
+      "path": "packages/test-support/client-runtime/src/workspaces.ts",
+      "sha256_original": "b224425cf01c41bdd5a593559a3d88283525ea055268315d95a7ba43785db433",
+      "sha256_modified": "15dc046f26fd57cf26f85cc45edbb8d3149c635908279116c11f477d3e1ed124"
+    },
+    {
+      "path": "packages/workspace/workspace/src/index.ts",
+      "sha256_original": "3d46277fc6ba186c0c603ddb793a561e9cbc56b1f878bf156395ce8b66f4d1f4",
+      "sha256_modified": "03b44a56a5c28fae96107f1404a1365f9d302304bbabdc5b44254dae209ee21b"
+    }
+  ]
+}
