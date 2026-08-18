@@ -21,6 +21,14 @@
 
 ---
 
+## 📸 效果截图
+
+补丁部署后 Web 端会话界面的实际效果：
+
+![补丁部署后的 Web 端会话操作界面](images/example.png)
+
+---
+
 ## 🛠️ 改动概览
 
 | 项目 | 说明 |
@@ -98,6 +106,14 @@ Complements session lifecycle management in the `deepseek-harness` Web GUI by ad
   * **Deep Cleanup**: Disposes live agent instances → Prunes host registry → Detaches workspace bindings → Wipes on-disk logs and directories (supports JSONL & SQLite backends).
   * **Safety Guards**: Blocks live/active sessions, sub-agent owner sessions, or in-flight commits; returns `session-not-found` if log files are missing; enforces concurrency serialization.
   * **Real-time Sync**: Emits session removal events to update client UI states instantly.
+
+---
+
+## 📸 Screenshot
+
+The actual Web session UI after the patch is applied:
+
+![Web session operations after patching](images/example.png)
 
 ---
 
