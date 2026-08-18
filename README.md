@@ -43,19 +43,20 @@ git apply dsh-plugin-session-improvements.patch
 pnpm run build
 自动化脚本（含自动备份与检测）：
 
-Linux / macOS: ./install.sh /path/to/deepseek-harness --build --test
-
 Windows (PowerShell): .\install.ps1 -HarnessRoot D:\path\to\deepseek-harness -Build -Test
 
+Linux / macOS: ./install.sh /path/to/deepseek-harness --build --test
+(Note, Linux, macos for reference, no test)
+
 一键回滚
-Bash
+```bash
 git apply -R dsh-plugin-session-improvements.patch
-🧪 验证与测试
+##🧪 验证与测试
 Bash
 # 1. 运行持久化后端单测 (JSONL / SQLite / Memory)
 pnpm vitest run packages/session/session-persistence/tests/persistence.spec.ts
 
 # 2. 运行 Web E2E 完整生命周期测试 (归档 -> 恢复 -> 删除)
 pnpm vitest run --config vitest.web.config.ts apps/web/tests/workspace-management.e2e.ts
-📄 开源协议
+##📄 开源协议
 本项目采用 MIT 协议开源，完整保留上游 deepseek-harness 版权声明。详见 LICENSE。
