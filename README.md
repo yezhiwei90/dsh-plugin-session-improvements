@@ -123,7 +123,7 @@ git apply dsh-plugin-session-improvements.patch
 pnpm run build
 ```
 
-> **Automated Install Scripts (Includes Auto-Backup & Pre-Check. Setup with cautios on Linux, macOS):**
+> **Automated Install Scripts (Includes Auto-Backup & Pre-Check. Setup with cautions on Linux, macOS):**
 > * **Windows (PowerShell):** `.\install.ps1 -HarnessRoot D:\path\to\deepseek-harness -Build -Test`
 > * **Linux / macOS:** `./install.sh /path/to/deepseek-harness --build --test`
 
